@@ -1,0 +1,63 @@
+nav{
+    display: flex;
+    background-color:black;
+    position: sticky;
+    top: 0%;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color:  grey;
+}
+#cont{
+    display: flex;
+    list-style-type: none;
+    font-family: myFont;
+    margin: 0%;
+    padding: 0%;  
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+a:hover{
+    background-color: white;
+    color:orange;
+    transition: 200ms;
+}
+#menu{
+    list-style-type: none;
+    padding: 0%;
+    position:absolute;  
+    display: none;
+}
+#drop:hover #menu{
+    display: block;
+    background-color: black;
+    transition: 200ms
+}
+#up{
+    list-style-type: none;
+    padding: 0%;
+    position:absolute;  
+    display: none;
+}
+#down:hover #up{
+    display: block;
+    background-color: black;
+    transition: 200ms
+}
+#Drinks{
+    list-style-type: none;
+    padding: 0%;
+    position:absolute;  
+    display: none;
+}
+#videshi:hover #Drinks{
+    display: block;
+    background-color: black;
+    transition: 200ms;
+}
+
